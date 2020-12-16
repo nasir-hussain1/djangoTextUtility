@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textutils</title>
+</head>
+<body>
+    <h1>Welcome to the text analyzer!! Please enter the text in text area</h1>
+    <!-- <form action="/rp" method="GET">
+        <textarea name="inputText" style="margin: 0px; width: 1341px; height: 139px;"></textarea>
+    <button type='submit'>Analyze Text</button>
+    
+    
+    </form> -->
+
+    <form action="/analyze" method='GET'>
+        <textarea name="inputText" style="margin: 0px; width: 1341px; height: 139px;"></textarea>
+        <input type="checkbox" name='removepunc'> Remove Punctuations
+        <br>
+        <br>
+        <input type="checkbox" name='capitalize'>Capitalize All 
+        <br>
+        <br>
+        <input type="checkbox" name='remnewline'>Remove Lines
+        <br>
+        <br>
+        <input type="checkbox" name='charcount'>Counts Character 
+        <br>
+        <br>
+        <input type="checkbox" name='remspace'>Remove Extra Spacing
+        <br>
+        <br>
+        <button type='submit'>Analyze Text</button>
+    
+    </form>
+</body>
+</html>

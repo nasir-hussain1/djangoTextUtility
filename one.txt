@@ -1,0 +1,11 @@
+Django Installtion
+
+projevtName  Python manage.py runserver
+
+Add views.py in project folder
+Goto urls.py and add
+From . import views
+Now add path 
+Path, views.index.html, name =”index”
+In views.py
+From  Django.httpr import httpresponse
